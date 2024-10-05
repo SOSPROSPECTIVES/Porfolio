@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#work">Travail</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section Accueil -->
+    <section id="home">
+        <h1>Bienvenue sur mon Portfolio</h1>
+        <p>Je suis Ousmane Sene SECK, développeur web passionné par la création de solutions numériques élégantes et efficaces.</p>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <p>Je suis un développeur web avec une expertise en HTML, CSS, JavaScript et une passion pour les technologies disruptives modernes.</p>
+        <h3>Compétences :</h3>
+        <ul>
+            <li>Développement Front-end (HTML, CSS, JavaScript)</li>
+            <li>Développement Back-end (Node.js, Express)</li>
+            <li>Gestion de bases de données (MySQL, MongoDB)</li>
+        </ul>
+    </section>
+
+    <!-- Section Travail -->
+    <section id="work">
+        <h2>Mes Projets</h2>
+        <p>Voici quelques-uns de mes projets récents :</p>
+
+        <!-- Vidéo d'un projet -->
+        <video controls width="600">
+            <source src="video-projet.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas les vidéos HTML5.
+        </video>
+
+        <!-- Table de projets -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Projet</th>
+                    <th>Description</th>
+                    <th>Technologies</th>
+                    <th>Lien</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Portfolio Web</td>
+                    <td>Un portfolio personnel pour présenter mon travail.</td>
+                    <td>HTML, CSS, JavaScript</td>
+                    <td><a href="lien-vers-projet.html">Voir projet</a></td>
+                </tr>
+                <tr>
+                    <td>Application To-Do</td>
+                    <td>Une application pour gérer ses tâches quotidiennes.</td>
+                    <td>React, Node.js</td>
+                    <td><a href="lien-vers-projet.html">Voir projet</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Section CV -->
+    <section id="cv">
+        <h2>Mon CV</h2>
+        <p>Téléchargez mon CV en cliquant sur le lien ci-dessous :</p>
+        <a href="cv.pdf" download>Télécharger mon CV</a>
+
+        <!-- Liste d'expérience professionnelle -->
+        <h3>Expériences professionnelles</h3>
+        <ul>
+            <li>Développeur Web - [Entreprise 1] (2021 - présent)</li>
+            <li>Stage en Développement - [Entreprise 2] (2020)</li>
+        </ul>
+    </section>
+
+    <!-- Section Contact avec formulaire -->
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 Mon Portfolio | Tous droits réservés</p>
+
+        <!-- Audio pour inclure un fichier sonore -->
+        <audio controls>
+            <source src="audio-ambiance.mp3" type="audio/mpeg">
+            Votre navigateur ne supporte pas les fichiers audio.
+        </audio>
+
+        <p><a href="mentions-legales.html">Mentions légales</a> | <a href="politique-de-confidentialite.html">Politique de confidentialité</a></p>
+    </footer>
+
+</body>
+</html>
